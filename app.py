@@ -3,7 +3,6 @@ import json
 import os
 
 BASE_URL = "https://jsonplaceholder.typicode.com"
-
 CACHE_FILE = "data.json"
 
 # Save data to local JSON file
@@ -149,3 +148,4 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+
